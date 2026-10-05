@@ -1,0 +1,76 @@
+{
+  "distros": [
+    {
+      "name": "Debian 13",
+      "group": "Tested on real hardware",
+      "size": "3.5G",
+      "live": true,
+      "install": true,
+      "status": "installs and boots",
+      "url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.7.0-amd64-gnome.iso"
+    },
+    {
+      "name": "Ubuntu 24.04 LTS",
+      "group": "Tested on real hardware",
+      "size": "6.2G",
+      "live": true,
+      "install": true,
+      "status": "boots live; installs like Debian",
+      "url": "https://releases.ubuntu.com/24.04/ubuntu-24.04.4-desktop-amd64.iso"
+    },
+    {
+      "name": "Fedora Workstation 41",
+      "group": "Tested on real hardware",
+      "size": "2.3G",
+      "live": true,
+      "install": true,
+      "status": "installs and boots (older release)",
+      "url": "https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/41/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-41-1.4.iso"
+    },
+    {
+      "name": "Linux Mint 22 Cinnamon",
+      "group": "Tested on real hardware",
+      "size": "2.7G",
+      "live": true,
+      "install": true,
+      "status": "boots; new PCs need a newer kernel",
+      "url": "https://mirrors.edge.kernel.org/linuxmint/stable/22/linuxmint-22-cinnamon-64bit.iso"
+    },
+    {
+      "name": "Ubuntu 26.04 LTS",
+      "group": "Same recipe - not yet tested",
+      "size": "6.1G",
+      "live": true,
+      "install": true,
+      "status": "should work - tell us",
+      "url": "https://releases.ubuntu.com/26.04/ubuntu-26.04-desktop-amd64.iso"
+    },
+    {
+      "name": "Linux Mint 22.3 Cinnamon",
+      "group": "Same recipe - not yet tested",
+      "size": "2.9G",
+      "live": true,
+      "install": true,
+      "status": "should work - tell us",
+      "url": "https://mirrors.edge.kernel.org/linuxmint/stable/22.3/linuxmint-22.3-cinnamon-64bit.iso"
+    },
+    {
+      "name": "Fedora Workstation 44",
+      "group": "Same recipe - not yet tested",
+      "size": "2.7G",
+      "live": true,
+      "install": true,
+      "status": "should work - tell us",
+      "url": "https://download.fedoraproject.org/pub/fedora/linux/releases/44/Workstation/x86_64/iso/Fedora-Workstation-Live-44-1.7.x86_64.iso"
+    },
+    {
+      "name": "Arch Linux",
+      "group": "Experimental",
+      "size": "1.5G",
+      "live": true,
+      "install": true,
+      "status": "recipe not booted in its current form",
+      "url": "https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-x86_64.iso"
+    }
+  ]
+}
