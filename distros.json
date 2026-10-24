@@ -71,6 +71,15 @@
       "install": true,
       "status": "recipe not booted in its current form",
       "url": "https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-x86_64.iso"
+    },
+    {
+      "name": "GParted Live",
+      "group": "Tools",
+      "size": "0.4G",
+      "live": true,
+      "install": false,
+      "status": "resize/partition with no USB - loads to RAM",
+      "url": "https://downloads.sourceforge.net/gparted/gparted-live-1.7.0-12-amd64.iso"
     }
   ]
 }
